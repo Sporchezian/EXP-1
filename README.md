@@ -1,5 +1,6 @@
 # EXP-1
 EXPT NO: 1	VERIFICATION OF KIRCHHOFF’S LAWS
+
 AIM
 a.   To verify Kirchhoff’s Voltage Law (KVL) for the given circuit. 
 b.   To verify Kirchhoff’s Current Law (KCL) for the given circuits.
@@ -37,11 +38,8 @@ b.  KCL:
 4.   Switch on the RPS.
 5.   Set the input voltage to a value between 0V to 30V.
 6.   Record the voltage values shown in the ammeter connected to each resistor.
-7.   Take readings for different values of input voltage and tabulate them. 
-CIRCUIT DIAGRAM:
-
-CIRCUIT DIAGRAM:
-
+7.   Take readings for different values of input voltage and tabulate them.
+CIRCUIT DIAGRAM: 
 
 a.   KVL:
 
@@ -50,6 +48,8 @@ a.   KVL:
 
 b.  KCL:
  
+<img width="1262" height="692" alt="KCL" src="https://github.com/user-attachments/assets/d54d65d0-5866-43ef-aeed-9e8dad8d9e87" />
+
 
 Calculation:
 
