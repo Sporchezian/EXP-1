@@ -55,24 +55,71 @@ Calculation:
 
 a.   KVL:
  
-<img width="846" height="511" alt="Screenshot 2025-11-16 095128" src="https://github.com/user-attachments/assets/c2c7928f-152b-4039-b6a8-4a9bc3392821" />
-
+$$
+\begin{aligned}
+V=V_{1}+ V_{2}+V3\to \left( 1 \right)\\
+100=IR_{1}+IR_{2}+IR_{3}\\
+R_{eq}=R_{1}+R_{2}+R_{3}\\
+R_{eq}=180\Omega\\
+I=\frac{V}{R_{eq}}=\frac{100}{180}=0.055A\\
+\\
+V_{1}=V30\Omega=IR_{1}=0.556X30=16.68V\\
+V_{2}=V50\Omega=IR_{2}=0.556X50=27.8V\\
+V_{3}=V100\Omega=IR_{3}=0.556X100=55.6V\\
+\\
+Sub. V_{1},V_{2},V_{3} in \left( 1 \right)\\
+100=16.68+27.8+55.6=100\\
+100V=100V\\
+Hence, Proved
+\end{aligned}
+$$
 
 b.  KCL:
 
-<img width="704" height="733" alt="Screenshot 2025-11-16 100424" src="https://github.com/user-attachments/assets/f54a4f56-acd5-4cb1-bc24-7e07b0a4276d" />
+$$
+\begin{aligned}
+At\enspace node\enspace A:\\
+I_{30\Omega}=I_{50\Omega}+I_{100\Omega}\\
+I_{30\Omega}=\frac{100-V}{30}\\
+I_{50\Omega}=\frac{V}{50}\\
+I_{100\Omega}=\frac{V}{100}\\
+\frac{100-V}{30}=\frac{V}{50}+\frac{V}{100}\\
+\frac{100-V}{30}=\frac{V}{5}+\frac{V}{10}\\
+1000-10V=9V\\
+19V=1000\\
+V=\frac{1000}{19}\\
+V=52.63\\
+\\ \\
+I_{30\Omega}=\frac{100-V}{30}=\frac{100-52.63}{30}=1.58A\\
+I_{50\Omega}=\frac{V}{50}=\frac{52.63}{50}=1.05\\
+I_{1000\Omega}=\frac{V}{100}=\frac{52.63}{100}=0.53A\\
+\\ \\
+At\enspace node\enspace A:\\
+I_{30\Omega}=I_{50\Omega}+I_{1000\Omega}\\
+1.58A=1.05A+0.53A\\
+1.58A=1.58A\\
+\\
+Hence,Proved\\
+\end{aligned}
+$$
 
 
 Tabulation:
 
 a.   KVL:
 
- <img width="987" height="200" alt="table" src="https://github.com/user-attachments/assets/8a5a9d53-535e-4e5d-b9cf-27f82e3733e7" />
+ |KVL|SOURCE(V)|$$V_{30\Omega}$$|$$V_{50\Omega}$$|$$V_{100\Omega}$$|$$V_{30\Omega}+V_{50\Omega}+V_{100\Omega}(V)$$|
+|---- |-----|----|----|---|-----|
+|Theoretical|100|16.68|27.8|55.6|100.08|
+|Practical|100|16.7|27.8|55.6|100.1|
 
 
 b.  KCL:
 
-<img width="773" height="170" alt="table (2)" src="https://github.com/user-attachments/assets/bb5947e3-fa5d-4a7d-a4b1-bce3ca4b5783" />
+|KCL|$$I_{30\Omega}$$|$$I_{50\Omega}$$|$$I_{100\Omega}$$|$$V_{A}$$|
+|----|----|----|-----|----|
+|Theoretical|1.58A|1.05A|0.53A|52.63A|
+|practical|1.58A|1.05A|0.53A|52.6A|
 
 RESULT:
 
